@@ -1,0 +1,4 @@
+n=int(input("enter the number of multiplication table:"))
+print("the multiplication table:",n)
+for count in range (1,11):
+    print(n,'x',count,'=',n*count)
