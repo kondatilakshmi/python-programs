@@ -1,0 +1,7 @@
+a=input("please Enter a value:")
+y=reversed(a)
+reversed=reversed(a)
+if list(a)==list(y):
+  print(a,"is a palindrome")
+else:
+  print(a,"is not a palindrome")
